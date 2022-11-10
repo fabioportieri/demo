@@ -49,7 +49,7 @@ public class BankControllerTests {
                 .andReturn();
 
         byte[] resBytes = result.getResponse().getContentAsByteArray();
-        // TODO : deserialize in the actual object
+        // TODO : deserialize to the actual object
 //        CustomResponseEntity<SaldoResponse> response = TestUtil.convertJsonBytesToGenericObject(resBytes);
         
         // assertion fluent api for additional checks
